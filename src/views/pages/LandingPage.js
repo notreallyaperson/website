@@ -160,7 +160,7 @@ function LandingPage() {
           <Container>
             <h2 className="title">Let's Talk About Us</h2>
             <Row>
-              <Col md="4">
+              <Col md="2">
                 {/* <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -214,7 +214,7 @@ function LandingPage() {
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a>
                       <img
                         alt="..."
                         src={require("assets/img/faces/AviProfile.jpg")}
@@ -222,10 +222,10 @@ function LandingPage() {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a>
                       <div className="author">
                         <CardTitle tag="h4">Avinash Naidu</CardTitle>
-                        <h6 className="card-category">CEO</h6>
+                        <h6 className="card-category">Person</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
@@ -264,56 +264,46 @@ function LandingPage() {
                 </Card>
               </Col>
               <Col md="4">
-                {/* <Card className="card-profile card-plain">
+                <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a>
                       <img
                         alt="..."
-                        src={require("assets/img/faces/erik-lucatero-2.jpg")}
+                        src={require("assets/img/faces/Jack_Profile.jpg")}
                       />
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a>
                       <div className="author">
                         <CardTitle tag="h4">Jack Te</CardTitle>
                         <h6 className="card-category">Developer</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      The strength of the team is each individual member. The
-                      strength of each member is the team. If you can laugh
-                      together, you can work together, silence isn’t golden,
-                      it’s deadly.
+                    Developing and maintaining existing and new apps with clean and reusable codes.  
+                    Sharing ideas and trying to make an Impact on the people around me.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://github.com/VanBawi"
+                      target="_blank"
                     >
-                      <i className="fa fa-twitter" />
+                      <i className="fa fa-github" />
                     </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
+                    {/* <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />
-                    </Button>
+                    </Button> */}
                   </CardFooter>
-                </Card> */}
+                </Card>
               </Col>
             </Row>
           </Container>
