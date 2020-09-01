@@ -79,8 +79,8 @@ function ExamplesNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            to="/landing-page"
-            title="Coded by Creative Tim"
+            to="/website"
+            title="Coded by Avinash Naidu"
             tag={Link}
           >
             <img
