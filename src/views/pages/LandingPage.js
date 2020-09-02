@@ -160,27 +160,27 @@ function LandingPage() {
           <Container>
             <h2 className="title">Let's Talk About Us</h2>
             <Row>
-              <Col md="2">
-                {/* <Card className="card-profile card-plain">
+              <Col md="4">
+                <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a>
                       <img
                         alt="..."
-                        src={require("assets/img/faces/clem-onojeghuo-3.jpg")}
+                        src={require("assets/img/faces/Sultani_Profile.jpg")}
                       />
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a>
                       <div className="author">
                         <CardTitle tag="h4">Mohammad Sultani</CardTitle>
-                        <h6 className="card-category">Lead Developer</h6>
+                        <h6 className="card-category">Developer</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
-                      the money that you want without becoming very good at it.
+                    Addressing business requirements with code is fun, but
+                    it can get even more interesting when your job is simplifying
+                    other people's tasks and business operations.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
@@ -209,7 +209,7 @@ function LandingPage() {
                       <i className="fa fa-linkedin" />
                     </Button>
                   </CardFooter>
-                </Card> */}
+                </Card>
               </Col>
               <Col md="4">
                 <Card className="card-profile card-plain">

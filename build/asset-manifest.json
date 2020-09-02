@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/website/static/css/main.f7b845ed.chunk.css",
-    "main.js": "/website/static/js/main.eab6c7c1.chunk.js",
-    "main.js.map": "/website/static/js/main.eab6c7c1.chunk.js.map",
+    "main.js": "/website/static/js/main.fc8ab569.chunk.js",
+    "main.js.map": "/website/static/js/main.fc8ab569.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.142d061f.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.142d061f.js.map",
-    "static/js/2.0cfa6f21.chunk.js": "/website/static/js/2.0cfa6f21.chunk.js",
-    "static/js/2.0cfa6f21.chunk.js.map": "/website/static/js/2.0cfa6f21.chunk.js.map",
+    "static/js/2.219e4660.chunk.js": "/website/static/js/2.219e4660.chunk.js",
+    "static/js/2.219e4660.chunk.js.map": "/website/static/js/2.219e4660.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.26ccebdc3868b21157e7b518a6bc3b62.js": "/website/precache-manifest.26ccebdc3868b21157e7b518a6bc3b62.js",
+    "precache-manifest.acfd4f9b547464b4d2847a4c2a841e46.js": "/website/precache-manifest.acfd4f9b547464b4d2847a4c2a841e46.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/main.f7b845ed.chunk.css.map": "/website/static/css/main.f7b845ed.chunk.css.map",
-    "static/js/2.0cfa6f21.chunk.js.LICENSE.txt": "/website/static/js/2.0cfa6f21.chunk.js.LICENSE.txt",
-    "static/js/main.eab6c7c1.chunk.js.LICENSE.txt": "/website/static/js/main.eab6c7c1.chunk.js.LICENSE.txt",
+    "static/js/2.219e4660.chunk.js.LICENSE.txt": "/website/static/js/2.219e4660.chunk.js.LICENSE.txt",
+    "static/js/main.fc8ab569.chunk.js.LICENSE.txt": "/website/static/js/main.fc8ab569.chunk.js.LICENSE.txt",
     "static/media/AviProfile.jpg": "/website/static/media/AviProfile.db78b5ab.jpg",
     "static/media/Background-image.jpg": "/website/static/media/Background-image.bf3207e0.jpg",
     "static/media/Jack_Profile.jpg": "/website/static/media/Jack_Profile.dcc11f07.jpg",
     "static/media/Qworky_Logo.png": "/website/static/media/Qworky_Logo.581a4d38.png",
     "static/media/Qworky_Logo_Inverted.png": "/website/static/media/Qworky_Logo_Inverted.d30d946d.png",
+    "static/media/Sultani_Profile.jpg": "/website/static/media/Sultani_Profile.e4668ee1.jpg",
     "static/media/federico-beccari.jpg": "/website/static/media/federico-beccari.1331ba97.jpg",
     "static/media/ilya-yakover.jpg": "/website/static/media/ilya-yakover.efe05368.jpg",
     "static/media/joshua-stannard.jpg": "/website/static/media/joshua-stannard.8a26aabc.jpg",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.142d061f.js",
-    "static/js/2.0cfa6f21.chunk.js",
+    "static/js/2.219e4660.chunk.js",
     "static/css/main.f7b845ed.chunk.css",
-    "static/js/main.eab6c7c1.chunk.js"
+    "static/js/main.fc8ab569.chunk.js"
   ]
 }
