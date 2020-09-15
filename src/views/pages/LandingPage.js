@@ -228,7 +228,7 @@ function LandingPage() {
                     <a>
                       <div className="author">
                         <CardTitle tag="h4">Avinash Naidu</CardTitle>
-                        <h6 className="card-category">Person</h6>
+                        <h6 className="card-category">Person/Founder</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
@@ -307,7 +307,7 @@ function LandingPage() {
                 </Card>
               </Col>
             </Row>
-              <table style={{display: 'block', width:'100%', overflowX:'auto', paddingBottom: '15px', marginTop: '15px'}}>
+              <table style={{display: 'block', width:'100%', overflowX:'auto', paddingBottom: '15px', marginTop: '30px'}}>
                 <tbody>
                   <tr>
                     <td style={{ justifyContent: 'center', alignItems: "center" }}>

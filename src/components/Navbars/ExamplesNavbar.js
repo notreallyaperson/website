@@ -25,6 +25,10 @@ import classnames from "classnames";
 import Qworky_Logo_Inverted from '../../assets/img/Qworky_Logo_Inverted.png'
 import Qworky_Logo from '../../assets/img/Qworky_Logo.png'
 
+// Icon Imports
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTasks } from '@fortawesome/free-solid-svg-icons';
+
 // reactstrap components
 import {
   Collapse,
@@ -79,7 +83,7 @@ function ExamplesNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            to="/website"
+            to="/"
             title="Coded by Avinash Naidu"
             tag={Link}
           >
@@ -113,7 +117,7 @@ function ExamplesNavbar() {
                 href="https://qworky.herokuapp.com/registercompany"
                 target="_blank"
               >
-                <i className="nc-icon nc-layout-11" /> Task Management App
+                <FontAwesomeIcon icon={faTasks} /> Task Management App
               </NavLink>
             </NavItem>
             {/* <NavItem>
