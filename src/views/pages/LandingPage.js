@@ -33,6 +33,7 @@ import {
   Container,
   Row,
   Col,
+  Table
 } from "reactstrap";
 
 // core components
@@ -44,6 +45,8 @@ import SubmitEmail from "components/SubmitEmail";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUsers, faClock, faCogs, faChartLine } from '@fortawesome/free-solid-svg-icons';
 
+import 'assets/css/custom.css'
+
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -53,7 +56,7 @@ function LandingPage() {
     };
   });
   return (
-    <>
+    <div>
       <ExamplesNavbar />
       <LandingPageHeader />
       <div className="main">
@@ -63,14 +66,14 @@ function LandingPage() {
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">Our History</h2>
                 <h5 className="description">
-                Qworky is a ERP solutions provider targeting SMEs in Malaysia
+                  Qworky is a ERP solutions provider targeting SMEs in Malaysia
                 <br />
-                <br />
-                From our debut in 2019, Qworky got involved in multiple projects, allowing the company to grow steadily. 
-                Malaysia has always been lacking in terms of digital infrastructure. 
+                  <br />
+                From our debut in 2019, Qworky got involved in multiple projects, allowing the company to grow steadily.
+                Malaysia has always been lacking in terms of digital infrastructure.
                 So Qworky was formed to fill that gap
                 <br />
-                <br />
+                  <br />
                 We strive to make digitalisation affordable and accessible.
                 <br />
                 We strive to create scalable personalized solutions
@@ -108,12 +111,12 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                  <FontAwesomeIcon icon={faClock} />
+                    <FontAwesomeIcon icon={faClock} />
                   </div>
                   <div className="description">
                     <h4 className="info-title">Proposal Tracking</h4>
                     <p>
-                    Based on the consultancy model, track proposal changes from inception to Invoicing
+                      Based on the consultancy model, track proposal changes from inception to Invoicing
                     </p>
                     {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -178,33 +181,33 @@ function LandingPage() {
                       </div>
                     </a>
                     <p className="card-description text-center">
-                    Addressing business requirements with code is fun, but
-                    it can get even more interesting when your job is simplifying
-                    other people's tasks and business operations.
+                      Addressing business requirements with code is fun, but
+                      it can get even more interesting when your job is simplifying
+                      other people's tasks and business operations.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://github.com/mohammadsultani"
+                      target='_blank'
                     >
-                      <i className="fa fa-twitter" />
+                      <i className="fa fa-github" />
                     </Button>
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://www.instagram.com/md_sultani"
+                      target="_blank"
                     >
-                      <i className="fa fa-google-plus" />
+                      <i className="fa fa-instagram" />
                     </Button>
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://www.linkedin.com/in/mohammad-sultani/"
+                      target='_blank'
                     >
                       <i className="fa fa-linkedin" />
                     </Button>
@@ -247,7 +250,6 @@ function LandingPage() {
                       color="link"
                       href="https://www.instagram.com/avinashofthewild/"
                       target="_blank"
-                      //onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-instagram" />
                     </Button>
@@ -256,7 +258,6 @@ function LandingPage() {
                       color="link"
                       href="https://www.linkedin.com/in/avinash-naidu-638ba977/"
                       target="_blank"
-                      //onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-linkedin" />
                     </Button>
@@ -281,8 +282,8 @@ function LandingPage() {
                       </div>
                     </a>
                     <p className="card-description text-center">
-                    Developing and maintaining existing and new apps with clean and reusable codes.  
-                    Sharing ideas and trying to make an Impact on the people around me.
+                      Developing and maintaining existing and new apps with clean and reusable codes.
+                      Sharing ideas and trying to make an Impact on the people around me.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
@@ -294,26 +295,86 @@ function LandingPage() {
                     >
                       <i className="fa fa-github" />
                     </Button>
-                    {/* <Button
+                    <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://www.linkedin.com/in/jack-te-ba5ba6166/"
+                      target='_blank'
                     >
                       <i className="fa fa-linkedin" />
-                    </Button> */}
+                    </Button>
                   </CardFooter>
                 </Card>
               </Col>
             </Row>
+              <table style={{display: 'block', width:'100%', overflowX:'auto', paddingBottom: '15px', marginTop: '15px'}}>
+                <tbody>
+                  <tr>
+                    <td style={{ justifyContent: 'center', alignItems: "center" }}>
+                      <a href="https://www.magnusgamesstudio.com/" target='_blank'>
+                        <img
+                          alt="..."
+                          src={require("assets/img/companies/magnus.png")}
+                          style={{ maxHeight: '60px', maxWidth: '200px', margin: '10px' }}
+                        />
+                      </a>
+                    </td>
+                    <td style={{ justifyContent: 'center', alignItems: "center" }}>
+                      <a href="http://jtkconsult.com.my/" target='_blank'>
+                        <img
+                          alt="..."
+                          src={require("assets/img/companies/JTK Logo.png")}
+                          style={{ maxHeight: '60px', maxWidth: '200px', margin: '10px' }}
+                        />
+                      </a>
+                    </td>
+                    <td style={{ justifyContent: 'center', alignItems: "center" }}>
+                      <a href="https://www.trees.org.my/home" target='_blank'>
+                        <img
+                          alt="..."
+                          src={require("assets/img/companies/Trees.png")}
+                          style={{ maxHeight: '60px', maxWidth: '200px', margin: '10px' }}
+                        />
+                      </a>
+                    </td>
+                    <td style={{ justifyContent: 'center', alignItems: "center" }}>
+                      <a href="https://f0bk.wordpress.com/" target='_blank'>
+                        <img
+                          alt="..."
+                          src={require("assets/img/companies/FoBK.png")}
+                          style={{ maxHeight: '60px', maxWidth: '200px', margin: '10px' }}
+                        />
+                      </a>
+                    </td>
+                    <td style={{ justifyContent: 'center', alignItems: "center" }}>
+                      <a href="https://bangsawan.com.sg/" target='_blank'>
+                        <img
+                          alt="..."
+                          src={require("assets/img/companies/bangsawan-logo.png")}
+                          style={{ maxHeight: '60px', maxWidth: '200px', margin: '10px' }}
+                        />
+                      </a>
+                    </td>
+                    <td style={{ justifyContent: 'center', alignItems: "center" }}>
+                      <a href="https://thepangean.com/" target='_blank'>
+                        <img
+                          alt="..."
+                          src={require("assets/img/companies/Pangean.png")}
+                          style={{ maxHeight: '60px', maxWidth: '200px', margin: '10px' }}
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
           </Container>
         </div>
         <div className="section landing-section">
           <SubmitEmail />
         </div>
       </div>
-      
-    </>
+
+    </div>
   );
 }
 

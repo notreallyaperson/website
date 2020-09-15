@@ -24,10 +24,13 @@ import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 import "assets/css/bootstrap.min.css";
 import "assets/scss/paper-kit.scss?v=1.2.0";
 import "assets/demo/demo.css?v=1.2.0";
+import 'assets/css/custom.css'
+
 // pages
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
 import LandingPage from "views/pages/LandingPage.js";
+
 // others
 
 ReactDOM.render(
