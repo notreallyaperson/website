@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.4ccf0a15.chunk.css",
-    "main.js": "/website/static/js/main.e412c167.chunk.js",
-    "main.js.map": "/website/static/js/main.e412c167.chunk.js.map",
+    "main.css": "/website/static/css/main.bd819fc4.chunk.css",
+    "main.js": "/website/static/js/main.9b29ce4c.chunk.js",
+    "main.js.map": "/website/static/js/main.9b29ce4c.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.142d061f.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.142d061f.js.map",
-    "static/js/2.f1b29b66.chunk.js": "/website/static/js/2.f1b29b66.chunk.js",
-    "static/js/2.f1b29b66.chunk.js.map": "/website/static/js/2.f1b29b66.chunk.js.map",
+    "static/js/2.2ce05c7a.chunk.js": "/website/static/js/2.2ce05c7a.chunk.js",
+    "static/js/2.2ce05c7a.chunk.js.map": "/website/static/js/2.2ce05c7a.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.2c60dca9b61b64579f85462ebf54d449.js": "/website/precache-manifest.2c60dca9b61b64579f85462ebf54d449.js",
+    "precache-manifest.cf02627f1c5c2986f45204fa0c8fecf4.js": "/website/precache-manifest.cf02627f1c5c2986f45204fa0c8fecf4.js",
     "service-worker.js": "/website/service-worker.js",
-    "static/css/main.4ccf0a15.chunk.css.map": "/website/static/css/main.4ccf0a15.chunk.css.map",
-    "static/js/2.f1b29b66.chunk.js.LICENSE.txt": "/website/static/js/2.f1b29b66.chunk.js.LICENSE.txt",
-    "static/js/main.e412c167.chunk.js.LICENSE.txt": "/website/static/js/main.e412c167.chunk.js.LICENSE.txt",
+    "static/css/main.bd819fc4.chunk.css.map": "/website/static/css/main.bd819fc4.chunk.css.map",
+    "static/js/2.2ce05c7a.chunk.js.LICENSE.txt": "/website/static/js/2.2ce05c7a.chunk.js.LICENSE.txt",
+    "static/js/main.9b29ce4c.chunk.js.LICENSE.txt": "/website/static/js/main.9b29ce4c.chunk.js.LICENSE.txt",
     "static/media/AviProfile.jpg": "/website/static/media/AviProfile.db78b5ab.jpg",
     "static/media/Background-image.jpg": "/website/static/media/Background-image.bf3207e0.jpg",
     "static/media/FoBK.png": "/website/static/media/FoBK.a467f3f8.png",
@@ -26,6 +26,7 @@
     "static/media/federico-beccari.jpg": "/website/static/media/federico-beccari.1331ba97.jpg",
     "static/media/ilya-yakover.jpg": "/website/static/media/ilya-yakover.efe05368.jpg",
     "static/media/joshua-stannard.jpg": "/website/static/media/joshua-stannard.8a26aabc.jpg",
+    "static/media/kheeran_profile.jpg": "/website/static/media/kheeran_profile.de41075a.jpg",
     "static/media/landing-page.png": "/website/static/media/landing-page.d65b6316.png",
     "static/media/login-image.jpg": "/website/static/media/login-image.be9fa468.jpg",
     "static/media/magnus.png": "/website/static/media/magnus.130aea59.png",
@@ -35,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.142d061f.js",
-    "static/js/2.f1b29b66.chunk.js",
-    "static/css/main.4ccf0a15.chunk.css",
-    "static/js/main.e412c167.chunk.js"
+    "static/js/2.2ce05c7a.chunk.js",
+    "static/css/main.bd819fc4.chunk.css",
+    "static/js/main.9b29ce4c.chunk.js"
   ]
 }

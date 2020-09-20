@@ -43,7 +43,7 @@ import SubmitEmail from "components/SubmitEmail";
 
 // Icon Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUsers, faClock, faCogs, faChartLine } from '@fortawesome/free-solid-svg-icons';
+import { faUsers, faClock, faCogs, faCode } from '@fortawesome/free-solid-svg-icons';
 
 import 'assets/css/custom.css'
 
@@ -143,12 +143,12 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <FontAwesomeIcon icon={faChartLine} />
+                    <FontAwesomeIcon icon={faCode} />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Dashboards</h4>
+                    <h4 className="info-title">App Development</h4>
                     <p>
-                      Create custom dashboards to better understand your companies performace
+                      Developing custom Web and Mobile Apps based on user requirements
                     </p>
                     {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -163,7 +163,107 @@ function LandingPage() {
           <Container>
             <h2 className="title">Let's Talk About Us</h2>
             <Row>
-              <Col md="4">
+              <Col md="3">
+                <Card className="card-profile card-plain">
+                  <div className="card-avatar">
+                    <a>
+                      <img
+                        alt="..."
+                        src={require("assets/img/faces/AviProfile.jpg")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <a>
+                      <div className="author">
+                        <CardTitle tag="h4">Avinash Naidu</CardTitle>
+                        <h6 className="card-category">Person/Founder</h6>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                      Creating a place for people to come together to learn, share and grow together.
+                      I want to get to the peak surrounded by the people that helped me along the way.
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    {/* <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-twitter" />
+                    </Button> */}
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="https://www.instagram.com/avinashofthewild/"
+                      target="_blank"
+                    >
+                      <i className="fa fa-instagram" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="https://www.linkedin.com/in/avinash-naidu-638ba977/"
+                      target="_blank"
+                    >
+                      <i className="fa fa-linkedin" />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="3">
+                <Card className="card-profile card-plain">
+                  <div className="card-avatar">
+                    <a>
+                      <img
+                        alt="..."
+                        src={require("assets/img/faces/kheeran_profile.jpg")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <a>
+                      <div className="author">
+                        <CardTitle tag="h4">Kheeran Naidu</CardTitle>
+                        <h6 className="card-category">CTO</h6>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                    Growing like a plant while pursuing a PhD in Algorithms at the University of Bristol. 
+                    Interested in research and development, aiming to reduce inefficiencies.
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      href="https://github.com/kheeran"
+                      target='_blank'
+                    >
+                      <i className="fa fa-github" />
+                    </Button>
+                    {/* <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="https://www.instagram.com/md_sultani"
+                      target="_blank"
+                    >
+                      <i className="fa fa-instagram" />
+                    </Button> */}
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="https://www.linkedin.com/in/kheeran/"
+                      target='_blank'
+                    >
+                      <i className="fa fa-linkedin" />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="3">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a>
@@ -214,57 +314,7 @@ function LandingPage() {
                   </CardFooter>
                 </Card>
               </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a>
-                      <img
-                        alt="..."
-                        src={require("assets/img/faces/AviProfile.jpg")}
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a>
-                      <div className="author">
-                        <CardTitle tag="h4">Avinash Naidu</CardTitle>
-                        <h6 className="card-category">Person/Founder</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      Creating a place for people to come together to learn, share and grow together.
-                      I want to get to the peak surrounded by the people that helped me along the way.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    {/* <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button> */}
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="https://www.instagram.com/avinashofthewild/"
-                      target="_blank"
-                    >
-                      <i className="fa fa-instagram" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="https://www.linkedin.com/in/avinash-naidu-638ba977/"
-                      target="_blank"
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
+              <Col md="3">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a>
@@ -307,6 +357,7 @@ function LandingPage() {
                 </Card>
               </Col>
             </Row>
+              <p style ={{fontWeight: 'bold', fontSize: '20px'}}>Our Customers</p>
               <table style={{display: 'block', width:'100%', overflowX:'auto', paddingBottom: '15px', marginTop: '30px'}}>
                 <tbody>
                   <tr>
