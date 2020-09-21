@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Carousel,
   CarouselItem,
@@ -62,6 +62,17 @@ const items = [
 const StaffCarousel = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
+  const [windoWidth, setWindowWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowWidth(window.innerWidth);
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  
 
   const next = () => {
     if (animating) return;
@@ -88,7 +99,7 @@ const StaffCarousel = (props) => {
         key={item.src}
       >
         <div style={{ display: 'flex',justifyContent: 'center' }}>
-          <Card className="card-profile card-plain" style={{width: '350px', height: '340px'}}>
+          <Card className="card-profile card-plain" style={{width: windoWidth>500?'350px': '250px', height: windoWidth>500?'340px':'400px'}}>
             <div className="card-avatar">
               <a>
                 <img
