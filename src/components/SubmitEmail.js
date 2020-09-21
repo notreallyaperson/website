@@ -15,6 +15,10 @@ import {
 } from "reactstrap";
 import axios from 'axios';
 
+// Icon Imports
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons';
+
 function SubmitEmail() {
 
     const [email, setEmail] = useState('')
@@ -123,7 +127,7 @@ function SubmitEmail() {
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
-                            <i className="nc-icon nc-single-02" />
+                            <FontAwesomeIcon icon={faUser} />
                           </InputGroupText>
                         </InputGroupAddon>
                         <Input placeholder="Name" type="text" value={name} onChange={e => setName(e.target.value)}/>
@@ -134,7 +138,7 @@ function SubmitEmail() {
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
-                            <i className="nc-icon nc-email-85" />
+                          <FontAwesomeIcon icon={faEnvelope} />
                           </InputGroupText>
                         </InputGroupAddon>
                         <Input 
