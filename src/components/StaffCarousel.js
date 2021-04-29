@@ -39,7 +39,7 @@ const items = [
     name: 'Jayshan Naidu',
     role: 'CFO & Founder of Qworky UK',
     altText: 'Profile Photo',
-    caption: `An accountant, a handyman, a teacher and now a father. Never a dull moment as long as we keep moving forward.`,
+    caption: `Tax consultant, handyman, teacher and now father. Never a dull moment as long as we keep moving forward.`,
     socialMedia: [
       { icon: 'fa fa-linkedin', link: 'https://www.linkedin.com/in/jayshannaidu/' }
     ],
