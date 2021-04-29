@@ -45,7 +45,7 @@ import CustomerList from "components/CustomerList";
 
 // Icon Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUsers, faClock, faCogs, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faUsers, faClock, faCogs, faCode, faChartLine, faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons';
 
 import 'assets/css/custom.css'
 
@@ -67,19 +67,20 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Our History</h2>
+                <h2 className="title">About Us</h2>
                 <h5 className="description">
-                  Qworky is a ERP solutions provider targeting SMEs in Malaysia
+                  Qworky is a Digital Solutions provider for your entire digital expansion journey
                 <br />
                   <br />
-                From our debut in 2019, Qworky got involved in multiple projects, allowing the company to grow steadily.
-                Malaysia has always been lacking in terms of digital infrastructure.
-                So Qworky was formed to fill that gap
+                From our founding in 2019, Qworky has now begun operating out of UK and Malaysia. 
+                With a wide array of experience in digtal transformation accross industries
                 <br />
                   <br />
                 We strive to make digitalisation affordable and accessible.
                 <br />
                 We strive to create scalable personalized solutions
+                <br />
+                We strive to be better
                 </h5>
                 <br />
                 {/* <Button
@@ -98,44 +99,12 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <FontAwesomeIcon icon={faUsers} />
+                    <FontAwesomeIcon icon={faChalkboardTeacher} />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Task Management</h4>
+                    <h4 className="info-title smallmargin">Consulting</h4>
                     <p className="description">
-                      Manage all projects and track staff perfomance and output in a centralized location
-                    </p>
-                    {/* <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button> */}
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <FontAwesomeIcon icon={faClock} />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Proposal Tracking</h4>
-                    <p>
-                      Based on the consultancy model, track proposal changes from inception to Invoicing
-                    </p>
-                    {/* <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button> */}
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <FontAwesomeIcon icon={faCogs} />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Custom ERP</h4>
-                    <p>
-                      Create specific solutions for your business process to be integrated to your exsiting environment.
+                      Let us help you make sense of the digital revolution that is upon us
                     </p>
                     {/* <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -149,9 +118,41 @@ function LandingPage() {
                     <FontAwesomeIcon icon={faCode} />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">App Development</h4>
+                    <h4 className="info-title smallmargin">App Development</h4>
                     <p>
-                      Developing custom Web and Mobile Apps based on user requirements
+                      Developing custom Web and Mobile Apps catered to your needs
+                    </p>
+                    {/* <Button className="btn-link" color="info" href="#pablo">
+                      See more
+                    </Button> */}
+                  </div>
+                </div>
+              </Col>
+              <Col md="3">
+                <div className="info">
+                  <div className="icon icon-info">
+                    <FontAwesomeIcon icon={faCogs} />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title smallmargin">Platform Management</h4>
+                    <p>
+                      Let us worry about your digital portfolio so you can focus on your business
+                    </p>
+                    {/* <Button className="btn-link" color="info" href="#pablo">
+                      See more
+                    </Button> */}
+                  </div>
+                </div>
+              </Col>
+              <Col md="3">
+                <div className="info">
+                  <div className="icon icon-info">
+                    <FontAwesomeIcon icon={faChartLine} />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title smallmargin">Digital Expansion</h4>
+                    <p>
+                      We want to be your long tem partner. Your success is our success
                     </p>
                     {/* <Button className="btn-link" color="info" href="#pablo">
                       See more

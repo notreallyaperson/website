@@ -50,7 +50,7 @@ function SubmitEmail() {
             message
         }
         
-        const URI = "https://script.google.com/macros/s/AKfycbzqQplcfy92HR0isYDhcmwmBaXSj6Lp3M33OyPl7AHkZxCwRGI/exec"
+        const URI = "https://script.google.com/macros/s/AKfycbznx6yllgV5aHaiFlps8QfiqJmPc4TRxwUFH8HJTNlXWuz-mDWhSv55iPv_R8ftSMB8/exec"
         var reqBody = JSON.stringify(request)
         const res = await axios.post(URI, reqBody);
 

@@ -15,7 +15,7 @@ const items = [
   {
     src: require("assets/img/faces/AviProfile.jpg"),
     name: 'Avinash Naidu',
-    role: 'Person/Founder',
+    role: 'Person & Founder',
     altText: 'Profile Photo',
     caption: 'Creating a place for people to come to learn, share and grow together. I want to get to the peak surrounded by the people that helped me along the way.',
     socialMedia: [
@@ -26,7 +26,7 @@ const items = [
   {
     src: require("assets/img/faces/kheeran_profile.jpg"),
     name: 'Kheeran Naidu',
-    role: 'CTO',
+    role: 'CTO & Founder',
     altText: 'Profile Photo',
     caption: 'Growing like a plant while pursuing a PhD in Algorithms. Interested in research and development, aiming to reduce inefficiencies.',
     socialMedia: [
@@ -35,26 +35,23 @@ const items = [
     ],
   },
   {
-    src: require("assets/img/faces/Sultani_Profile.jpg"),
-    name: 'Mohammad Sultani',
-    role: 'Developer',
+    src: require("assets/img/faces/jayshan_profile.jpeg"),
+    name: 'Jayshan Naidu',
+    role: 'CFO & Founder of Qworky UK',
     altText: 'Profile Photo',
-    caption: `Addressing business requirements with code is fun, but it can get even more interesting when your job is simplifying other people's tasks and business operations.`,
+    caption: `An accountant, a handyman, a teacher and now a father. Never a dull moment as long as we keep moving forward.`,
     socialMedia: [
-      { icon: 'fa fa-github', link: 'https://github.com/mohammadsultani' },
-      { icon: 'fa fa-instagram', link: 'https://www.instagram.com/md_sultani/' },
-      { icon: 'fa fa-linkedin', link: 'https://www.linkedin.com/in/mohammad-sultani/' }
+      { icon: 'fa fa-linkedin', link: 'https://www.linkedin.com/in/jayshannaidu/' }
     ],
   },
   {
-    src: require("assets/img/faces/Jack_Profile.jpg"),
-    name: 'Jack Te',
-    role: 'Developer',
+    src: require("assets/img/faces/louise_profile.jpg"),
+    name: 'Louise Milhomme',
+    role: 'CMO & UI/UX',
     altText: 'Profile Photo',
-    caption: 'Developing and maintaining existing and new apps with clean and reusable codes. Sharing ideas and trying to make an Impact on the people around me.',
+    caption: 'A small person with big dreams. Eternal optimist, as I like to say "There are no problems, only solutions"',
     socialMedia: [
-      { icon: 'fa fa-github', link: 'https://github.com/VanBawi' },
-      { icon: 'fa fa-linkedin', link: 'https://www.linkedin.com/in/jack-te-ba5ba6166/' }
+      { icon: 'fa fa-linkedin', link: 'https://www.linkedin.com/in/louise-milhomme-465ab7105/' }
     ],
   }
 ];
